@@ -3,7 +3,7 @@
 
 :root {
   color-scheme: light;
-  --paper: #ffffff;
+  --paper: #F7EFD9;
   --ink: rgb(55, 53, 47);
   --muted: rgba(55, 53, 47, 0.6);
   --faint: rgba(55, 53, 47, 0.4);
@@ -324,6 +324,7 @@ a:focus-visible {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
 }
+
 
 .chapter-nav {
   display: flex;
