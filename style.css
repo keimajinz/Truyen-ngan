@@ -73,7 +73,7 @@ a:focus-visible {
   display: flex;
   align-items: center;
   gap: 27px;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0.035em;
 }
 
@@ -247,7 +247,7 @@ a:focus-visible {
   margin-top: 39px;
   color: var(--muted);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
+  font-size: 18px;
   transition: color 160ms ease;
 }
 
@@ -322,7 +322,7 @@ a:focus-visible {
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
+  font-size: 16px;
 }
 
 
@@ -345,7 +345,7 @@ a:focus-visible {
 
   .site-nav {
     gap: 16px;
-    font-size: 11px;
+    font-size: 18px;
   }
 
   .home-main {
