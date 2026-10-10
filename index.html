@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kho lưu trữ truyện">
+  <meta name="theme-color" content="#ffffff">
+  <title>Danh sách truyện</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header wrap">
+    <a class="wordmark" href="index.html" aria-label="Trang chủ"><span class="wordmark-dot">.</span></a>
+    <nav class="site-nav" aria-label="Điều hướng chính">
+      <a class="active" href="index.html">Thư viện</a>
+      <a href="#about">Giới thiệu</a>
+    </nav>
+  </header>
+
+  <main class="wrap home-main">
+    <section class="intro" aria-labelledby="site-title">
+      <p class="eyebrow"></p>
+      <h1 id="site-title">Những câu chuyện<br><span>được giữ lại ở đây.</span></h1>
+    </section>
+
+    <section class="library" aria-labelledby="library-title">
+      <div class="section-heading">
+        <h2 id="library-title">Thư viện</h2>
+        <span class="item-count">01 tác phẩm</span>
+      </div>
+
+      <a class="story-row" href="No-11.html">
+        <span class="story-number">01</span>
+        <span class="story-info">
+          <span class="story-title">#11</span>
+          <span class="story-description">
+            Truyện về giấc mơ của mình vào một đêm mùa thu ở Pháp.
+          </span>
+        </span>
+        <span class="story-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <!-- To add another story, duplicate a .story-row and update its link and text. -->
+    </section>
+    <section class="about" id="about" aria-labelledby="about-title">
+      <p class="eyebrow">Đôi điều về mình</p>
+      <p></p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer wrap">
+    <span>© <span id="year">2026</span></span>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
