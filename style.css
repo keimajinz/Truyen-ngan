@@ -325,6 +325,14 @@ a:focus-visible {
   font-size: 11px;
 }
 
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 32px;
+}
+
 @media (max-width: 600px) {
   .wrap {
     width: calc(100% - 40px);

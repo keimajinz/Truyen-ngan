@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>#8 — Mục lục</title>
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
-  <main class="container">
-    <nav class="story-nav">
-      <a href="muc-luc.html">← Trang chủ</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="index.html" aria-label="Trang chủ"><span class="wordmark-dot">.</span></a>
+    <nav class="site-nav" aria-label="Điều hướng chính">
+      <a class="active" href="index.html">Thư viện</a>
     </nav>
+  </header>
 
-    <header class="story-header">
-      <p class="eyebrow">TRUYỆN</p>
-      <h1>#8</h1>
-    </header>
+  <main class="reading-wrap">
+    <article class="story-article">
+      <header class="story-header">
+        <p class="eyebrow">TRUYỆN NGẮN</p>
+        <h1>#8</h1>
+      </header>
+    </article>
 
-    <section class="toc" aria-labelledby="toc-title">
-      <h2 id="toc-title">Mục lục</h2>
+    <section class="library" aria-labelledby="library-title">
+      <div class="section-heading">
+        <h2 id="library-title">Mục lục</h2>
+        <span class="item-count">10 chương</span>
+      </div>
 
-      <ol class="toc-list">
-        <li><a href="Chuong-1.html">Chương 1</a></li>
-      </ol>
+      <a class="story-row" href="Chuong-1.html">
+        <span class="story-number">01</span>
+        <span class="story-info">
+          <span class="story-title">Chương 1</span>
+          <span class="story-description">
+            Thay đổi.
+          </span>
+        </span>
+        <span class="story-arrow" aria-hidden="true">↗</span>
+      </a>
+
     </section>
   </main>
 </body>
+
 </html>
